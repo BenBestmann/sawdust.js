@@ -1,10 +1,10 @@
 sawdust.js
 ==========
 
-Sawdust.js is a simple web crawler and scraper which can be used via a RESTful interface and jQuery as a syntax for 
+Sawdust.js is a simple web crawler and scraper which can be used via a RESTful interface and jQuery as a syntax for selecting HTML data.
 It is implemented using [node.js](http://nodejs.org/), [express](http://expressjs.com/), [request](https://github.com/mikeal/request) and [cheerio](https://github.com/MatthewMueller/cheerio).
 
-If you interested in this project or my work, you can follow me on Twitter: [@BenBestmann](https://twitter.com/BenBestmann)
+If you're interested in this project or my work, please follow me on Twitter: [@BenBestmann](https://twitter.com/BenBestmann)
 ## Basic Usage
 Sawdust.js can be used via a RESTful interface. It basically provides one simple endpoint for performing scraping jobs:
 ```
@@ -19,7 +19,7 @@ In order to extract information from websites you have to specify at least one s
 ```javascript
 {"stories":".title a"}
 ```
-Every scraping job consist is represented by an attribute and it's accoring value. The attribute name is totally up to you. The attribute value has to be a valid [jQuery selector](http://api.jquery.com/category/selectors/). Here is the accoring HTML from the Hacker News homepage:
+Every scraping job is represented by an attribute and it's according value. The attribute name is totally up to you. The attributes value has to be a valid [jQuery selector](http://api.jquery.com/category/selectors/). Here is the accoring HTML from the Hacker News homepage:
 ```html
 <td class="title">
   <a href="http://docs.python.org/dev/whatsnew/3.4.html">What’s New In Python 3.4</a>
