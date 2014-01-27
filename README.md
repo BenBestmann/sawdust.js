@@ -41,9 +41,6 @@ To continue the example from above:
 }
 ```
 
-##Testing
-Currently there are no automated tests implemented. I will do that with the next version.
-
 ##License
 The MIT License (MIT)
 
